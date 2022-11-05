@@ -215,14 +215,22 @@ img {
   background: var(--button-bcg-color);
 }
 /* ОСОБЛИВОСТІ */
-.item {
-  display: flex;
+.features-item {
+  display: block;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.item-icon {
+  display: block;
+  margin: 0 auto;
 }
 .features {
   padding: 94px 0;
 }
 .features-list {
   display: flex;
+  align-items: flex-start;
 }
 .subtitle {
   font-weight: 700;
@@ -283,7 +291,32 @@ img {
   padding-bottom: 94px;
   padding-top: 94px;
 }
-
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.social-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #757575;
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.social-icon {
+  fill: currentColor;
+}
+.social-item {
+  padding-top: 16px;
+}
 .team-list .card + .card {
   margin-left: 30px;
 }
