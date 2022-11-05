@@ -359,6 +359,46 @@ img {
   width: 270px;
   text-align: center;
 }
+/* Clients */
+.clients-main {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+.clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.clients-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding-bottom: 50px;
+}
+.client-link {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  color: #afb1b8;
+}
+.client-link:hover,
+.client-link:focus {
+  border: 1px solid #2196f3;
+  color: #2196f3;
+}
+.client-icon {
+  fill: currentColor;
+}
 /* ФУТЕР */
 .footer-main {
   background: var(--background-color-footer);
