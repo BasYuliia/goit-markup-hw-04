@@ -444,6 +444,46 @@ img {
 .footer-link:focus {
   color: var(--logo-text-web-hoover-color);
 }
+.footer-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+.footer {
+  display: flex;
+}
+.social-footer {
+  padding-top: 12px;
+
+  padding-left: 70px;
+}
+.footer-social-list {
+  display: flex;
+  gap: 10px;
+}
+.footer-social-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: rgb(33, 150, 243);
+}
+.footer-icon {
+  fill: currentColor;
+}
 /* ............ПОРТФОЛІО................................. */
 
 .filter-main {
