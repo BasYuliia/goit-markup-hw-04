@@ -77,7 +77,7 @@ img {
 }
 .link {
   text-decoration: none;
-  // color: inherit;
+  color: inherit;
 }
 
 /* ХЕДЕР */
@@ -139,13 +139,19 @@ img {
   text-decoration: none;
 }
 /* НАВІГАЦІЯ */
-
 .auth-link {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  color: var(--dominant-text-color);
+}
+.auth-icon {
+  margin-right: 10px;
+  fill: currentColor;
 }
 .nav-link:hover {
   color: var(--logo-text-web-hoover-color);
@@ -162,9 +168,6 @@ img {
 }
 .nav-link {
   color: var(--nav-text-link-color);
-}
-.auth-link {
-  color: var(--dominant-text-color);
 }
 
 /* ГЕРОЙ */
@@ -212,6 +215,9 @@ img {
   background: var(--button-bcg-color);
 }
 /* ОСОБЛИВОСТІ */
+.item {
+  display: flex;
+}
 .features {
   padding: 94px 0;
 }
