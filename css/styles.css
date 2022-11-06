@@ -172,11 +172,19 @@ img {
 
 /* ГЕРОЙ */
 .hero {
-  background-image: url(../images/hero\ img.jpg);
   padding: 200px 0;
-  width: 1600px;
-  margin: 0 auto;
   text-align: center;
+}
+.overlay {
+  background-color: #c4c4c4;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/heroimg.jpg);
+  max-width: 1600px;
+  height: 600px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .headline {
   align-items: center;
